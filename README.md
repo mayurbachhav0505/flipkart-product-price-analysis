@@ -15,7 +15,7 @@ The project analyzes the Flipkart product catalog to identify useful business in
 - Discount vs. rating relationship
 - Price outliers
 
-The analysis uses SQL as the primary analytical layer, with Python and DuckDB for data processing and Streamlit + Plotly for the interactive dashboard.
+The analysis uses SQL as the primary analytical layer, with Python and DuckDB for data processing, and Streamlit + Plotly for the interactive dashboard.
 
 ## Dataset
 
@@ -39,4 +39,4 @@ The raw CSV file is not included in this repository because of its large file si
 To download the dataset, run:
 
 ```bash
-python Python/download_data.py
+python python/download_data.py
